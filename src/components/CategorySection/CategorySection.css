@@ -1,0 +1,25 @@
+.category-section {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 2rem 0;
+  }
+  
+  .category-card {
+    flex: 1;
+    padding: 1.5rem;
+    background-color: white;
+    color: #333;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,35 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .socials a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .socials a:hover {
+    color: #f0a500;
+  }
+  
+  .copyright {
+    font-size: 0.9rem;
+  }
+
+  
