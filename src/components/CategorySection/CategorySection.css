@@ -1,7 +1,6 @@
 .category-section {
     display: flex;
     justify-content: space-between;
-    
     padding: 2rem 0;
   }
   
@@ -16,6 +15,7 @@
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
     margin: 10px;
+    text-decoration: none;
   }
   
   .category-card:hover {
